@@ -1,0 +1,44 @@
+.hero-pic{
+    width: 100px;
+}
+.Hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    margin-top: 80px;
+}
+.Hero h1{
+    text-align: center;
+    font-size: 50px;
+}
+.Hero h1 span{
+    background: linear-gradient(270deg,#df8980 10%,#b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Hero p{
+    font-size: 25px;
+    text-align: center;
+}
+.Hero-action{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+.Hero-connect{
+    background: linear-gradient(264deg,#df8980 10%,#b415ff 100%);
+    padding: 15px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.Hero-resume{
+    border: 2px solid gray;
+    padding:15px 20px;
+    border-radius:30px;
+    cursor: pointer;
+}
+.Hero-resume:hover{
+    border-color: #b415ff;
+}

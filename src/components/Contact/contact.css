@@ -1,0 +1,110 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.contact-detail img{
+    width: 25px;
+}
+.contact-title{
+    position: relative;
+}
+.contact-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.contact-section{
+    display: flex;
+    gap: 150px;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contact-left h1{
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(270deg, #df8908 80%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.contact-left p{
+    max-width: 550px;
+    color: #d8d8d8;
+    font-size: 20px;
+    line-height: 33px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #d8d8d8;
+    font-size: 22px;
+    padding-top: 10px;
+}
+.contact-detail{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.contact-detail img{
+    transition: 0.3s;
+}
+.contact-detail img:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+.circle{
+    border-radius: 50%;
+}
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-right label{
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+.contact-right input{
+    border: none;
+    width: 500px;
+    height: 40px;
+    background:rgb(46, 45, 45);  
+    padding-left: 10px;
+    font-family: outfit;
+    border-radius: 10px;
+    font-size: 17px;
+}
+.contact-right textarea{
+    border: none;
+    width: 500px;
+    background:rgb(46, 45, 45);  
+    padding-left: 10px;
+    font-family: outfit;
+    border-radius: 10px;
+    font-size: 19px;
+    padding-top: 9px;
+}
+.contact-submit{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    background: linear-gradient(270deg, #df8908 20%,#b415ff 100%);
+    font-weight: 400;
+    transition: 0.3s;
+}
+.contact-submit:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}

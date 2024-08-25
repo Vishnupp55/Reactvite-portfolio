@@ -1,0 +1,48 @@
+.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+.mywork-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+    font-style: italic;
+}
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 0px 50px;
+}
+.projpic{
+    height: 250px;
+    width: 500px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.projpic:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    transition: 0.3s;
+}
+.mywork-showmore{
+    display: flex;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 15px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.mywork-showmore:hover{
+    transition: 0.3s;
+}
